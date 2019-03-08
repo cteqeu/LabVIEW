@@ -28,6 +28,7 @@ void setup()
   pinMode(p, OUTPUT);
   pinMode(btn,INPUT);
   Serial.begin(115200);
+  Serial.setTimeout(100);
 }
 
 void loop() 

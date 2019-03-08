@@ -7,6 +7,7 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
   // Setting up Serial Communication with 115200 baudrate
   Serial.begin(115200);
+  Serial.setTimeout(100);
 }
 
 // the loop function runs over and over again forever
